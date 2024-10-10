@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aprendendo Componentes Básicos de UI - Android Studio</string>
+
+    <string name="saludo">SALUDO</string>
 </resources>
