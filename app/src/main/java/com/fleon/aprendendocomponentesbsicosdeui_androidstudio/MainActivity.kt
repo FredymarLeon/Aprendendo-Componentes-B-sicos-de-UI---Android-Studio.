@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupView() {
         editTextName.addTextChangedListener { text ->
-            atualizarText(text.toString(), editTextAge.toString())
+            atualizarText(text.toString(), editTextAge.text.toString())
         }
 
         editTextAge.addTextChangedListener { text ->
